@@ -10,7 +10,9 @@ ABSTRACT: The aim of the Restaurant Chain Management System is to create an admi
 
 Each of them has different access permissions and different features to work with. This project is GUI-based and uses MySQL as its Database System to manage all the humongous data. It uses the JDBC Library to connect the Database and Java code. The GUI and data visualization in the project is made by JavaFX. METHODOLOGY:
 
-The whole project has been done in three Phases. ● Phase 1 consisted of planning the project. In this phase, we decided on the possible tables and classes for the project and divided the work among every member
+The whole project has been done in three Phases. 
+
+● Phase 1 consisted of planning the project. In this phase, we decided on the possible tables and classes for the project and divided the work among every member
 
 ● In Phase 2 each member did their respective work separately and completed their part.
 
