@@ -1,0 +1,39 @@
+.pane{
+    -fx-background-color:black;
+}
+.vbox {
+    -fx-border-color: #2e8b57;
+    -fx-border-width: 2px;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+    -fx-background-color:grey;
+}
+.button{
+    -fx-text-fill:#476651;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+     -fx-background-color: linear-gradient(#528277, #52827a);
+     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.search-box
+{
+     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+     -fx-text-fill:white;
+}
+#itemstopleft
+{
+        -fx-background-color:#212a33;
+         -fx-text-fill:white;
+            -fx-border-color: #2e8b57;
+                -fx-background-color:grey;
+
+
+
+}
+.label
+{
+-fx-text-fill : #8B008B
+
+}
+

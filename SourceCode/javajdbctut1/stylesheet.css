@@ -1,0 +1,43 @@
+/*.root{
+    -fx-font-family:'JetBrains Mono';
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: lightblue;
+    -fx-background-image: url("/javajdbctut1/caffee.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    
+    -fx-background-size: contain;
+    -fx-background-size: 100% 100%;
+
+}
+.label{
+    -fx-text-fill:#528260;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-font-size:1.5em;
+    
+}
+.button{
+    -fx-text-fill:#476651;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+     -fx-background-color: linear-gradient(#528277, #52827a);
+     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#title
+{
+     -fx-text-fill:#528269;
+    -fx-font-size:3em;
+    -fx-font-weight:bold;
+}
+.fancy-button:hover
+{
+    font-size: 2em;
+    -fx-font-weight:bold;
+    -fx-text-fill:#527782;
+
+   }
+*/

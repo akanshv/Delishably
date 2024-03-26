@@ -1,0 +1,114 @@
+class Employee implements JDBCConnection
+{
+    Scanner input= new Scanner();
+
+
+   void Actions()
+   {
+        System.out.println("\n WEILCOME !!!\nYou have signed in as an Employee\n");
+        System.out.println("\nChoose an Action to Perform : \n");
+        System.out.println("\n1)\tTake Order ");
+        System.out.println("\n2)\tLogOut");
+
+        switch (key) 
+        {
+            case 1:
+                System.out.println("\nChoose an Action to Perform : \n");
+                System.out.println("\n1)\tAdd Item ");
+                System.out.println("\n2)\tGet Final Bill");
+                System.out.println("\n3)\tRecieve Payment");
+                System.out.println("\n4\tShow Menu");
+
+                switch (key) 
+                {
+                    case 1:
+                        AddItemInOrder();
+                        break;
+
+                    case 2:
+                        System.out.println("\nEnter Customer Details First");
+                        AddCustomer();
+
+                    case 3:
+                        System.out.println("\nSelect a payment Method : \n");
+                        System.out.println("\n1)\tCash");
+                        System.out.println("\n2)\tUPI");
+                        System.out.println("\n3)\tNet Banking");
+                        System.out.println("\n4)\tCard");
+
+                        //Input Amount from Order
+
+                        TakePAyment(amount,Payment_method); 
+
+                    case 4:
+                        ShowMenu();
+
+                    default:
+                        System.out.println("\nChoose a valid option");
+                        break;
+                }
+
+                break;
+
+            case 2:
+                    break;
+                break;
+                
+            default:
+                System.out.println("\nChoose a valid option");
+                break;
+        }
+   }
+
+   void AddItemInOrder()
+   {
+        // A Function that retrives item from menu and adds it in order table
+        System.out.println("Enter Food Name");
+        String Food_Name = input.NextLine();
+        stmt.executeUpdate("insert into Order values from Menu where Menu.Food_Name = '%c';",Food_Name);
+   }
+
+   void AddCustomer()
+   {
+        // Ask Customer Details
+        // Bill Method : 
+        //          Checks if Customer is a existing member using the Phone Number
+        //          If already a member then give discount based on points and reset the points
+        //          If not a member then add the values in customr table
+        //          Returns the final bill after calculating points
+        //          Returns details of every item
+        //          Update Economy Table
+
+        System.out.println("Enter details of Customer : ");
+        String Name = input.nextLine();
+        String Gender = input.nextLine();
+        int Age= input.nexInt();
+        int Number=  input.nextInt();
+
+        stmt.executeUpdate("insert itno Customer Values('%s','%s',%d,%d);",Name,Gender,Age,Number);
+
+   }
+
+   void TakePayment(int amount, String Payment_Method)
+   {
+        // Payment Method :
+        //          Takes the total amount and Payment type
+        //          Updates the value in Payment Table
+        //          Update value in Economy Table
+
+        // JDBC CODE:
+        // Insert into Payment Values(%d,%c);,amount,Payment_Method
+        // Update Economy Set Amount = Amount + %d where Category = "Payment Income";,amount
+
+        stmt.executeUpdate("insert into Payment values(%d,'%s')",amount,Payment_Method);
+   }
+
+   void ShowMenu()
+   {
+        // Shows the MEnu Table
+
+        // JDBC CODE :
+        stmt.executeQuery("select * from Menu;")
+   }
+
+}
