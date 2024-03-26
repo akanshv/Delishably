@@ -1,0 +1,36 @@
+SQL Tables
+
+Employee:
+(Employee_Id PRIMARY KEY,Name, Position, Salary, Age, Gender)
+
+create table Employee(Employee_ID int PRIMARY KEY, Name varchar(255), Position varchar(255), Salary int, Age int, Gender varchar(6));
+
+
+Manager:
+(Manager_ID PRIMARY KEY, Name, Position, Salary, Age, Gender, Branch_Id)
+
+create table Manager(Manager_ID int PRIMARY KEY, Name varchar(255), Position varchar(255), Salary int, Age int, Gender varchar(6), Branch_ID int);
+
+
+Customer:
+(Number PRIMARY KEY, Name, Age, Gender, Point)
+
+create table Customer(Number int PRIMARY KEY, Name varchar(255), Age int, Gender varchar(6), Point int);
+
+
+Branch:
+(Branch_ID PRIMARY Key, City_Name, Address, Manager_ID)
+
+create table Branch(Branch_ID int PRIMARY KEY, City_Name varchar(255), Address varchar(255), Manager_ID int);
+
+
+Economy:
+(Income, Expenses, Profit)
+
+create table Economy(Income int, Expenses int, Profit int);
+
+
+Payment_Archives:
+(Payment, Payment_Method)
+
+create table Payment_Archive(Payment int, Payment_Archives int);
