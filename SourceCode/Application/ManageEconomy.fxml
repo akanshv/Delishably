@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ManageEconomyController">
+   <children>
+      <Label layoutX="499.0" layoutY="69.0" text="Branch    Economy">
+         <font>
+            <Font size="33.0" />
+         </font></Label>
+      <Label layoutX="558.0" layoutY="152.0" text="Click to See Data">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <RadioButton fx:id="inco" layoutX="522.0" layoutY="224.0" mnemonicParsing="false" onAction="#showincome" text="Store income">
+         <font>
+            <Font size="18.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="exp" layoutX="522.0" layoutY="306.0" mnemonicParsing="false" onAction="#showexpenses" text="Store expenses">
+         <font>
+            <Font size="18.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="pro" layoutX="522.0" layoutY="388.0" mnemonicParsing="false" onAction="#showprofit" text="Store profit">
+         <font>
+            <Font size="18.0" />
+         </font></RadioButton>
+      <Button layoutX="643.0" layoutY="484.0" mnemonicParsing="false" onAction="#back" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label fx:id="incomelab" layoutX="652.0" layoutY="264.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="expenseslab" layoutX="652.0" layoutY="345.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="profitlab" layoutX="652.0" layoutY="427.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,86 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/*.root{
+    
+    -fx-font-size: 20px;
+   
+    -fx-background-color: lightblue;
+    -fx-background-image: url("/application/OIP2.jpeg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    
+    -fx-background-size: contain;
+    -fx-background-size: 100% 100%;
+    -fx-opacity:1.0;
+    -fx-background-color:transparent;
+
+}
+.label{
+    -fx-font-family:' Verdana';
+   //  -fx-font-weight: bold;
+    -fx-text-fill:"beige";
+    -fx-font-weight: bold;
+   // -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-font-size:1.5em;
+    
+}
+.button{
+    -fx-text-fill:#476651;
+    -fx-font-family: "Verdana";
+    -fx-background-color:"beige"
+    -fx-font-weight: bold;
+     -fx-background-color: linear-gradient(#528277, #52827a);
+    / -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.radio-button{
+    -fx-font-family:'Verdana';
+   //  -fx-font-weight: bold;
+    -fx-text-fill:"beige";
+}
+
+#title
+{
+     -fx-text-fill:#528269;
+    -fx-font-size:3em;
+    -fx-font-weight:bold;
+}
+.fancy-button:hover
+{
+    font-size: 2em;
+    -fx-font-weight:bold;
+    -fx-text-fill:#527782;
+
+}
+*/
+.root{
+    
+    -fx-background-image: url("/application/OIP2.jpeg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    
+    -fx-background-size: contain;
+    -fx-background-size: 100% 100%;
+    -fx-opacity:1.0;
+}
+.label{
+    -fx-font-family:' Verdana';
+    -fx-text-fill:"beige";
+    -fx-font-weight: bold;
+   -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+/*.radio-button{
+}*/
+.radio-button{
+    -fx-text-fill: 'beige';
+    -fx-border-radius: 130px;
+}
+.button{
+    -fx-background-color: 'beige';
+    -fx-border-radius: 130px;
+}
+check-box{
+      -fx-text-fill: 'beige';
+      -fx-border-radius: 130px;
+}
+

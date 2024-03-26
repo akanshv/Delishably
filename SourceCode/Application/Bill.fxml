@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="C" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BillController">
+   <children>
+      <Label layoutX="658.0" layoutY="59.0" prefHeight="36.0" prefWidth="66.0" text="BILL">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label fx:id="cname" layoutX="499.0" layoutY="154.0" prefHeight="17.0" prefWidth="410.0" text="Customer name: ">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="amt" layoutX="593.0" layoutY="203.0" prefHeight="27.0" prefWidth="136.0" text="Amount :">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <RadioButton layoutX="499.0" layoutY="274.0" mnemonicParsing="false" onAction="#cashpay" text="Cash">
+         <font>
+            <Font size="18.0" />
+         </font></RadioButton>
+      <RadioButton layoutX="499.0" layoutY="306.0" mnemonicParsing="false" onAction="#Cardpay" text="Card">
+         <font>
+            <Font size="18.0" />
+         </font></RadioButton>
+      <RadioButton layoutX="500.0" layoutY="381.0" mnemonicParsing="false" onAction="#Upipay" text="UPI">
+         <font>
+            <Font size="18.0" />
+         </font></RadioButton>
+      <RadioButton layoutX="499.0" layoutY="343.0" mnemonicParsing="false" onAction="#Netpay" text="Net Banking">
+         <font>
+            <Font size="18.0" />
+         </font></RadioButton>
+      <Label layoutX="499.0" layoutY="203.0" text="Amount : ">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

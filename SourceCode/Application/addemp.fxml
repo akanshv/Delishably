@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.addempController">
+   <children>
+      <Label layoutX="485.0" layoutY="107.0" text="Id">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="480.0" layoutY="151.0" text="Name">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="480.0" layoutY="195.0" text="Position">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="480.0" layoutY="236.0" text="Salary">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="480.0" layoutY="276.0" text="Age">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="480.0" layoutY="322.0" text="Gender">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="552.0" layoutY="41.0" text="Add Employee">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <TextField fx:id="id" layoutX="581.0" layoutY="107.0" />
+      <TextField fx:id="name" layoutX="581.0" layoutY="151.0" />
+      <TextField fx:id="position" layoutX="581.0" layoutY="195.0" />
+      <TextField fx:id="salary" layoutX="581.0" layoutY="239.0" />
+      <TextField fx:id="age" layoutX="581.0" layoutY="276.0" />
+      <TextField fx:id="gender" layoutX="581.0" layoutY="320.0" />
+      <Button layoutX="563.0" layoutY="447.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button layoutX="558.0" layoutY="395.0" mnemonicParsing="false" onAction="#apply" text="Apply" />
+   </children>
+</AnchorPane>

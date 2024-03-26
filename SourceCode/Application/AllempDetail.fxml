@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="457.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AllempDetailController">
+   <children>
+      <Label layoutX="249.0" layoutY="46.0" text="All employee Detail" />
+      <Button layoutX="274.0" layoutY="297.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</AnchorPane>

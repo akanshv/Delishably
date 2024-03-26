@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ManagemanageController">
+   <children>
+      <Label layoutX="459.0" layoutY="163.0" prefHeight="17.0" prefWidth="376.0" text="Choose an action to perform" textAlignment="JUSTIFY">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="512.0" layoutY="85.0" text="Manage Managers">
+         <font>
+            <Font size="33.0" />
+         </font></Label>
+      <Button layoutX="613.0" layoutY="423.0" mnemonicParsing="false" onAction="#back" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <RadioButton layoutX="459.0" layoutY="219.0" mnemonicParsing="false" onAction="#make_man" text="Add Manager">
+         <font>
+            <Font size="18.0" />
+         </font></RadioButton>
+      <RadioButton layoutX="459.0" layoutY="271.0" mnemonicParsing="false" onAction="#remove_man" text="Remove Manager">
+         <font>
+            <Font size="18.0" />
+         </font></RadioButton>
+      <RadioButton layoutX="459.0" layoutY="324.0" mnemonicParsing="false" onAction="#update_man" text="Edit Details of Manager">
+         <font>
+            <Font size="18.0" />
+         </font></RadioButton>
+   </children>
+</AnchorPane>

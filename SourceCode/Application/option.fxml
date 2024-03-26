@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="wcred" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.optionController">
+   <children>
+      <TextField fx:id="uname" layoutX="564.0" layoutY="211.0" prefHeight="25.0" prefWidth="263.0" promptText="Enter your Name" />
+      <Button fx:id="submit" layoutX="611.0" layoutY="393.0" mnemonicParsing="false" onAction="#role" text="Submit" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="564.0" layoutY="151.0" prefHeight="27.0" prefWidth="149.0" text="Login page" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Label layoutX="484.0" layoutY="211.0" text="Name">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="473.0" layoutY="261.0" text="Password ">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <PasswordField fx:id="psd" layoutX="564.0" layoutY="261.0" prefHeight="25.0" prefWidth="263.0" promptText="Enter your password" />
+      <Label fx:id="cr" layoutX="611.0" layoutY="353.0" />
+      <Label alignment="CENTER" layoutX="473.0" layoutY="45.0" prefHeight="49.0" prefWidth="319.0" text="Delishably">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
