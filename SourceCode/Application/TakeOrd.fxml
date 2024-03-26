@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TakeOrdController">
+   <content>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1280.0" style="-fx-background-image: url('/application/OIP2.jpeg');">
+         <children>
+            <CheckBox fx:id="mvd200" layoutX="422.0" layoutY="431.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Dal Makhni 200Rs" />
+            <CheckBox fx:id="mvr100" layoutX="596.0" layoutY="431.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Rajma 100Rs" />
+            <CheckBox fx:id="mvc200" layoutX="766.0" layoutY="431.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Chole Bhatoore 200Rs" />
+            <CheckBox fx:id="mvn100" layoutX="940.0" layoutY="431.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Naan Bread 100Rs" />
+            <CheckBox fx:id="mnbir250" layoutX="942.0" layoutY="525.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Biryani 250Rs" />
+            <CheckBox fx:id="avb100" layoutX="421.0" layoutY="174.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text=" Burger 100Rs" />
+            <CheckBox fx:id="avp250" layoutX="598.0" layoutY="174.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Pasta 250Rs" />
+            <CheckBox fx:id="avs175" layoutX="754.0" layoutY="174.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Salad 175 Rs" />
+            <CheckBox fx:id="avp50" layoutX="891.0" layoutY="174.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Patties 50Rs" />
+            <CheckBox fx:id="mvp200" layoutX="237.0" layoutY="431.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Paneer 200Rs" />
+            <Label layoutX="633.0" layoutY="39.0" text="Menu">
+               <font>
+                  <Font size="25.0" />
+               </font></Label>
+            <Label layoutX="195.0" layoutY="103.0" text="Appetizers">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <Label layoutX="233.0" layoutY="135.0" style="-fx-text-fill: 'beige';" text="Veg">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="228.0" layoutY="223.0" style="-fx-text-fill: 'beige';" text="Non Veg">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <CheckBox fx:id="Anl200" layoutX="233.0" layoutY="267.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Chicken Lollipop 200Rs" />
+            <CheckBox fx:id="anr100" layoutX="420.0" layoutY="267.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Chicken Roll 100Rs" />
+            <CheckBox fx:id="ans300" layoutX="595.0" layoutY="267.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Shwarma 300Rs" />
+            <CheckBox fx:id="ano150" layoutX="754.0" layoutY="267.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Omlet 150Rs" />
+            <CheckBox fx:id="ane200" layoutX="933.0" layoutY="267.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Egg SandWich 200Rs" />
+            <Label layoutX="195.0" layoutY="354.0" style="-fx-text-fill: 'beige';" text="Meals">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <Label layoutX="237.0" layoutY="393.0" style="-fx-text-fill: 'beige';" text="Veg">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="230.0" layoutY="480.0" style="-fx-text-fill: 'beige';" text="Non Veg">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <CheckBox fx:id="mnb200" layoutX="236.0" layoutY="525.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Butter Chicken 200Rs" />
+            <CheckBox fx:id="mnm300" layoutX="423.0" layoutY="525.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Mutton 300Rs" />
+            <CheckBox fx:id="mne250" layoutX="598.0" layoutY="525.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Egg Curry 250Rs" />
+            <CheckBox fx:id="mnf200" layoutX="766.0" layoutY="525.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Fish Delight 200Rs" />
+            <Label layoutX="196.0" layoutY="577.0" text="Desserts">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <Label layoutX="195.0" layoutY="661.0" text="Drinks">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <CheckBox fx:id="dg100" layoutX="242.0" layoutY="622.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="GulabJamun 100Rs" />
+            <CheckBox fx:id="df100" layoutX="422.0" layoutY="622.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Falooda 100Rs" />
+            <CheckBox fx:id="dc250" layoutX="596.0" layoutY="622.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Choco Brownie 250Rs" />
+            <CheckBox fx:id="df200" layoutX="766.0" layoutY="622.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Fudge 200Rs" />
+            <CheckBox fx:id="ds200" layoutX="940.0" layoutY="622.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Shahi Kheer 200Rs" />
+            <CheckBox fx:id="drc200" layoutX="238.0" layoutY="712.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Coffee 200Rs" />
+            <CheckBox fx:id="dra200" layoutX="593.0" layoutY="712.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Arabian Delight 200Rs" />
+            <CheckBox fx:id="drj200" layoutX="764.0" layoutY="712.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Jaljeera 200Rs" />
+            <CheckBox fx:id="drc50" layoutX="937.0" layoutY="712.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Cold Cola 50Rs" />
+            <CheckBox fx:id="avm150" layoutX="233.0" layoutY="174.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Momos 150Rs" />
+            <Button fx:id="seeorder" layoutX="1000.0" layoutY="771.0" mnemonicParsing="false" onAction="#seeorder" text="vieworder" />
+            <Button fx:id="backbtn" layoutX="216.0" layoutY="771.0" mnemonicParsing="false" onAction="#back" text="Back" />
+            <CheckBox fx:id="drm200" layoutX="418.0" layoutY="712.0" mnemonicParsing="false" style="-fx-text-fill: 'beige';" text="Mocktail 200Rs" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
